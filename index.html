@@ -1,56 +1,80 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GoIT Biçimlendirme Ödevi 01</title>
+    <title>GoIT Markup Assignment 01</title>
 </head>
 <body>
     <header>
         <nav>
+            <a href="./index.html">WebStudio</a>
             <ul>
-                <li><a href="#about">Hakkımızda</a></li>
-                <li><a href="#services">Hizmetler</a></li>
-                <li><a href="#portfolio">Portföy</a></li>
-                <li><a href="#contact">İletişim</a></li>
+                <li><a href="#studio">Studio</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contacts">Contacts</a></li>
             </ul>
         </nav>
-        <section id="contact">
-         <h1>İletişim</h1>
-         <ul>
-             <li> <img src="images/email.jpg" alt="Email" width="150"> </li>
-                <li> <img src="images/telefon.jpg" alt="Telefon" width="150"> </li>
-         </ul>
+        <address>
+            <ul>
+                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+            </ul>
+        </address>
     </header>
     
     <main>
         <section id="about">
-            <h1>Web Sitemize Hoş Geldiniz</h1>
-            <img src="images/logo.jpg" alt="Şirket Logosu" width="200">
-            <p>Şirketimiz hakkında kısa bir açıklama</p>
+            <h1>Welcome to Our Website</h1>
+            <img src="images/logo.jpg" alt="Company Logo" width="200">
+            <p>A brief description of our company.</p>
         </section>
         
         <section id="services">
-            <h2>Hizmetlerimiz</h2>
+            <h2>Our Services</h2>
             <ul>
-                <li>Hizmet 1</li> <img src="images/hizmet1.jpg" alt="Hizmet 1" width="150">
-                <li>Hizmet 2</li>
-                <li>Hizmet 3</li>
+                <li>
+                    <img src="images/service1.jpg" alt="Service 1" width="150">
+                    <p>Service 1</p>
+                </li>
+                <li>Service 2</li>
+                <li>Service 3</li>
             </ul>
             <button type="button">
-                <img src="images/siparis-tusu.jpg" alt="siparis-tusu" width="250">
+                Order Service
+                <img src="images/order.jpg" alt="Order Button" width="250">
             </button>
-                   
         </section>
         
         <section id="team-card">
-            <h2>Team Card</h2>
-            <img src="images/marc-guerrero.jpg" alt="Çalışan Görseli" width="300">
+            <h2>Our Team</h2>
+            <ul>
+                <li>
+                    <img src="images/marc.jpg" alt="Mark Guerrero" width="264">
+                    <h3>Mark Guerrero</h3>
+                    <p>Designer</p>
+                </li>
+                <li>
+                    <img src="images/tom.jpg" alt="Tom Ford" width="264">
+                    <h3>Tom Ford</h3>
+                    <p>Frontend Developer</p>
+                </li>
+                <li>
+                    <img src="images/camila.jpg" alt="Camila Garcia" width="264">
+                    <h3>Camila Garcia</h3>
+                    <p>Marketing</p>
+                </li>
+                <li>
+                    <img src="images/daniel.jpg" alt="Daniel Wilson" width="264">
+                    <h3>Daniel Wilson</h3>
+                    <p>UI Designer</p>
+                </li>
+            </ul>
         </section>
     </main>
     
     <footer>
-        <p>&copy; 2025 Şirket Adı. Tüm hakları saklıdır.</p>
+        <p>&copy; 2025 Company Name. All rights reserved.</p>
     </footer>
 </body>
 </html>
