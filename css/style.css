@@ -1,12 +1,43 @@
-
-/* General Styles */
+/* Genel Ayarlar */
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #FFFFFF;
   margin: 0;
 }
+.hidden {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 
+.flex-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.flex-item {
+  flex-grow: 1;
+  order: 2;
+}
+
+.border-example {
+  border-bottom: 2px solid #ccc;
+}
 /* Logo */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -19,7 +50,7 @@ body {
   text-decoration: none;
 }
 
-/* Navigation */
+/* Navigasyon */
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -34,7 +65,7 @@ body {
   color: #404bbf;
 }
 
-/* Contact */
+/* İletişim */
 .contact {
   font-style: normal;
 }
@@ -52,14 +83,14 @@ body {
   color: #404bbf;
 }
 
-/* Hero Section */
+/* Hero Bölümü */
 .hero {
   background-color: #2e2f42;
   text-align: center;
   padding: 50px 0;
 }
 
-/* Hero Title */
+/* Hero Başlık */
 .hero h1 {
   font-size: 56px;
   line-height: 1.07;
@@ -67,7 +98,7 @@ body {
   color: #ffffff;
 }
 
-/* Button */
+/* Buton */
 .btn {
   background-color: #4D5AE5;
   font-family: "Roboto", sans-serif;
@@ -89,7 +120,7 @@ body {
   background-color: #404BBF;
 }
 
-/* Features Section */
+/* Özellikler Bölümü */
 .features {
   text-align: center;
 }
@@ -107,7 +138,7 @@ body {
   padding: 0;
 }
 
-/* Features List */
+/* Özellik Listesi */
 .feature-title {
   font-weight: 500;
   font-size: 20px;
@@ -123,7 +154,7 @@ body {
   color: #434455;
 }
 
-/* Portfolio Section */
+/* Portföy Bölümü */
 .portfolio {
   background-color: #f4f4fd;
   text-align: center;
@@ -164,7 +195,7 @@ footer {
   color: #F4F4FD;
 }
 
-/* Additional Styles for Required Properties */
+/* Eksik Olan Tüm Kuralların Eklendiği Kısım */
 .hidden {
   position: absolute;
   left: -9999px;
