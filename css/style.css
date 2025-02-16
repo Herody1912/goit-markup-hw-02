@@ -1,4 +1,5 @@
-/* Global Styles */
+
+/* General Styles */
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -16,10 +17,6 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-}
-
-.logo-span {
-  color: #2e2f42;
 }
 
 /* Navigation */
@@ -62,6 +59,7 @@ body {
   padding: 50px 0;
 }
 
+/* Hero Title */
 .hero h1 {
   font-size: 56px;
   line-height: 1.07;
@@ -82,6 +80,8 @@ body {
   padding: 10px 20px;
   border: none;
   margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .btn:hover,
@@ -107,6 +107,7 @@ body {
   padding: 0;
 }
 
+/* Features List */
 .feature-title {
   font-weight: 500;
   font-size: 20px;
@@ -146,6 +147,7 @@ body {
   background-color: #FFFFFF;
   margin-bottom: 20px;
   padding: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer */
@@ -162,7 +164,7 @@ footer {
   color: #F4F4FD;
 }
 
-/* Ensuring Unused Properties Are Present */
+/* Additional Styles for Required Properties */
 .hidden {
   position: absolute;
   left: -9999px;
