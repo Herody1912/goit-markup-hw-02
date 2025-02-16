@@ -1,0 +1,148 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #FFFFFF;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-span {
+  color: #2e2f42;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.contact {
+  font-style: normal;
+}
+
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
+.hero {
+  background-color: #2e2f42;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero h1 {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.btn {
+  background-color: #4D5AE5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 20px;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #404BBF;
+}
+
+.features h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.feature-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.feature-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.portfolio {
+  background-color: #f4f4fd;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.portfolio h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio ul {
+  list-style: none;
+  padding: 0;
+}
+
+.portfolio li {
+  background-color: #FFFFFF;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+footer {
+  background-color: #2e2f42;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #F4F4FD;
+}
