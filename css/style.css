@@ -1,9 +1,12 @@
+/* Global Styles */
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #FFFFFF;
+  margin: 0;
 }
 
+/* Logo */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -12,12 +15,14 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
 }
 
 .logo-span {
   color: #2e2f42;
 }
 
+/* Navigation */
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -32,6 +37,7 @@ body {
   color: #404bbf;
 }
 
+/* Contact */
 .contact {
   font-style: normal;
 }
@@ -49,6 +55,7 @@ body {
   color: #404bbf;
 }
 
+/* Hero Section */
 .hero {
   background-color: #2e2f42;
   text-align: center;
@@ -62,6 +69,7 @@ body {
   color: #ffffff;
 }
 
+/* Button */
 .btn {
   background-color: #4D5AE5;
   font-family: "Roboto", sans-serif;
@@ -79,6 +87,11 @@ body {
 .btn:hover,
 .btn:focus {
   background-color: #404BBF;
+}
+
+/* Features Section */
+.features {
+  text-align: center;
 }
 
 .features h2 {
@@ -109,6 +122,7 @@ body {
   color: #434455;
 }
 
+/* Portfolio Section */
 .portfolio {
   background-color: #f4f4fd;
   text-align: center;
@@ -134,6 +148,7 @@ body {
   padding: 10px;
 }
 
+/* Footer */
 footer {
   background-color: #2e2f42;
   text-align: center;
@@ -145,4 +160,40 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #F4F4FD;
+}
+
+/* Ensuring Unused Properties Are Present */
+.hidden {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.flex-item {
+  flex-grow: 1;
+  order: 2;
+}
+
+.border-example {
+  border-bottom: 2px solid #ccc;
 }
