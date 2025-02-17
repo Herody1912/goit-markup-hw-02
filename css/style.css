@@ -5,52 +5,28 @@ body {
   background-color: #FFFFFF;
   margin: 0;
 }
-.hidden {
-  position: absolute;
-  left: -9999px;
-  top: -9999px;
-}
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  box-sizing: border-box;
+
+/* Header */
+header {
+  background-color: #ffffff;
+  padding: 20px 0;
+  border-bottom: 1px solid #e7e9fc;
 }
 
-.flex-container {
+nav {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  flex-direction: row;
-  gap: 20px;
 }
 
-.button {
-  padding: 10px 15px;
-  border-radius: 5px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+.nav-list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.flex-item {
-  flex-grow: 1;
-  order: 2;
-}
-
-.border-example {
-  border-bottom: 2px solid #ccc;
-}
-/* Logo */
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  text-decoration: none;
-}
-
-/* Navigasyon */
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -65,7 +41,23 @@ body {
   color: #404bbf;
 }
 
-/* İletişim */
+/* Logo */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+
+.logo-span {
+  color: #2e2f42;
+}
+
+/* Contact */
 .contact {
   font-style: normal;
 }
@@ -83,14 +75,13 @@ body {
   color: #404bbf;
 }
 
-/* Hero Bölümü */
+/* Hero Section */
 .hero {
   background-color: #2e2f42;
   text-align: center;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
-/* Hero Başlık */
 .hero h1 {
   font-size: 56px;
   line-height: 1.07;
@@ -98,7 +89,6 @@ body {
   color: #ffffff;
 }
 
-/* Buton */
 .btn {
   background-color: #4D5AE5;
   font-family: "Roboto", sans-serif;
@@ -108,9 +98,8 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  padding: 10px 20px;
+  padding: 12px 24px;
   border: none;
-  margin-top: 20px;
   border-radius: 5px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -120,9 +109,10 @@ body {
   background-color: #404BBF;
 }
 
-/* Özellikler Bölümü */
+/* Features Section */
 .features {
   text-align: center;
+  padding: 50px 0;
 }
 
 .features h2 {
@@ -138,7 +128,6 @@ body {
   padding: 0;
 }
 
-/* Özellik Listesi */
 .feature-title {
   font-weight: 500;
   font-size: 20px;
@@ -154,7 +143,7 @@ body {
   color: #434455;
 }
 
-/* Portföy Bölümü */
+/* Portfolio Section */
 .portfolio {
   background-color: #f4f4fd;
   text-align: center;
@@ -195,7 +184,7 @@ footer {
   color: #F4F4FD;
 }
 
-/* Eksik Olan Tüm Kuralların Eklendiği Kısım */
+/* Ekstra Gereksinimler */
 .hidden {
   position: absolute;
   left: -9999px;
@@ -230,3 +219,4 @@ footer {
 .border-example {
   border-bottom: 2px solid #ccc;
 }
+
