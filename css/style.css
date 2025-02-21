@@ -1,171 +1,128 @@
-/* Genel Ayarlar */
+/* Genel Stiller */
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
   color: #434455;
-  background-color: #FFFFFF;
-  margin: 0;
-}
-
-/* Header */
-header {
   background-color: #ffffff;
-  padding: 20px 0;
-  border-bottom: 1px solid #e7e9fc;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+/* Header Stilleri */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #4d5ae5;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.logo-accent {
+  color: #2e2f42;
 }
 
 .nav-list {
-  display: flex;
-  gap: 40px;
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
-.nav-link {
+.nav-list .navlist-li .nav-link {
+  letter-spacing: 0.02em;
+  color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
   text-decoration: none;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-link {
+  letter-spacing: 0.02em;
+}
+
+.nav-list .navlist-li .nav-link:hover,
+.nav-list .navlist-li .nav-link:focus {
   color: #404bbf;
 }
 
-/* Logo */
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  text-decoration: none;
-}
-
-.logo-span {
-  color: #2e2f42;
-}
-
-/* Contact */
-.contact {
+.contact-info {
   font-style: normal;
 }
 
-.contact-link {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.contact-info .contact-list a {
   color: #434455;
-  text-decoration: none;
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.contact-info a:hover,
+.contact-info a:focus {
   color: #404bbf;
 }
 
-/* Hero Section */
+/* Ana Bölüm */
 .hero {
   background-color: #2e2f42;
-  text-align: center;
-  padding: 100px 0;
-}
-
-.hero h1 {
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-}
-.hero-section {
-  background-color: #2e2f42;
-  padding: 50px;
-  text-align: center;
+  color: white;
 }
 
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0.02em;
-  color: #ffffff;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .hero-button {
-  background-color: #4D5AE5;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  background-color: #4d5ae5;
+  color: white;
+  border: none;
   font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
-  padding: 10px 20px;
-  border: none;
-  margin-top: 20px;
-  border-radius: 5px;
 }
 
-.hero-button:hover {
-  background-color: #404BBF;
-}
-
+.hero-button:hover,
 .hero-button:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
-
-.btn {
-  background-color: #4D5AE5;
-  font-family: "Roboto", sans-serif;
+/* Özellikler Bölümü */
+.feature-title {
+  font-size: 20px;
   font-weight: 500;
+  color: #2e2f42;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.feature-text {
   font-size: 16px;
+  color: #434455;
   line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.02em;
 }
 
-.btn:hover,
-.btn:focus {
-  background-color: #404BBF;
+/* Takım Bölümü */
+.team {
+  background-color: #f4f4fd;
 }
 
-/* Features Section */
-.features {
-  text-align: center;
-  padding: 50px 0;
+.team-member {
+  background-color: #ffffff;
+  list-style: none;
 }
 
-.features h2 {
+.section-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
-.features ul {
-  list-style: none;
-  padding: 0;
-}
-
-.feature-title {
+.team-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -173,87 +130,45 @@ nav {
   color: #2e2f42;
 }
 
-.feature-text {
+.team-role {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-/* Portfolio Section */
-.portfolio {
-  background-color: #f4f4fd;
-  text-align: center;
-  padding: 50px 0;
-}
-
-.portfolio h2 {
-  font-size: 36px;
+/* Portfolio Bölümü */
+section.portfolio h2.portfolio-titletwo {
+  font-size: 36px !important;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-.portfolio ul {
-  list-style: none;
-  padding: 0;
-}
-
-.portfolio li {
-  background-color: #FFFFFF;
-  margin-bottom: 20px;
-  padding: 10px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* Footer */
-footer {
-  background-color: #2e2f42;
-  text-align: center;
-  padding: 20px 0;
-}
-
-.footer-text {
+.portfolio-category {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #F4F4FD;
+  color: #434455;
 }
 
-/* Ekstra Gereksinimler */
-.hidden {
-  position: absolute;
-  left: -9999px;
-  top: -9999px;
+/* Footer */
+.footer {
+  background-color: #2e2f42;
 }
 
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  box-sizing: border-box;
+.footer-text {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-
-.flex-container {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  gap: 20px;
-}
-
-.button {
-  padding: 10px 15px;
-  border-radius: 5px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.flex-item {
-  flex-grow: 1;
-  order: 2;
-}
-
-.border-example {
-  border-bottom: 2px solid #ccc;
-}
-
